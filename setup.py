@@ -29,7 +29,7 @@ setup(
     long_description=read('README.rst'),
     license='BSD-3-Clause',
     keywords='robotframework, example',
-    url='https://github.com/nokia/crl/crl-examplelib',
+    url='https://github.com/nokia/crl-examplelib',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     namespace_packages=['crl'],

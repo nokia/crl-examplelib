@@ -3,6 +3,11 @@
 CHANGES
 =======
 
+1.1.1
+-----
+
+ - Try CI machinery
+
 1.1
 ---
 
