@@ -1,5 +1,8 @@
 .. Copyright (C) 2019, Nokia
 
+.. image:: https://travis-ci.org/nokia/crl-examplelib.svg?branch=master
+    :target: https://travis-ci.org/nokia/crl-examplelib
+
 Example for Common Robot Library
 --------------------------------
 
