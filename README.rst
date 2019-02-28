@@ -12,3 +12,17 @@ like *nosetests*.
 
 Moreover, there is now available *robottests* environment for
 demonstrating acceptance test capability.
+
+Documentation
+-------------
+
+Documentation for crl.examplelib can be found from `Read The Docs`_
+
+.. _Read The Docs: http://crlexamplelib.readthedocs.io/
+
+
+Development practices
+---------------------
+
+The development and the testing follows the Common Robot Libraries development
+practices defined in https://github.com/nokia/crl-devutils.

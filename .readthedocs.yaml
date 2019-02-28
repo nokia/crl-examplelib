@@ -1,0 +1,6 @@
+# .readthedocs.yml
+
+version: 2
+
+sphinx:
+  configuration: sphinxdocs/conf.py
