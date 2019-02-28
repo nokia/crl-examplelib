@@ -3,6 +3,11 @@
 CHANGES
 =======
 
+1.1.2
+-----
+
+ - Integrate with Read the Docs
+
 1.1.1
 -----
 
