@@ -18,12 +18,15 @@ import subprocess
 import os
 from crl.examplelib._version import get_version
 
-try:
-    TOXINIDIR = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+
+def run_robotdocs(_):
+    toxinidir = os.path.join(os.path.abspath(os.path.dirname(__file__)),
                              os.pardir)
-    subprocess.check_call(['tox', '-c', TOXINIDIR, '-e', 'robotdocs'])
-except NameError:
-    pass
+    subprocess.check_call(['tox', '-c', toxinidir, '-e', 'robotdocs'])
+
+
+def setup(app):
+    app.connect('builder-inited', run_robotdocs)
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
