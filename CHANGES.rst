@@ -3,6 +3,11 @@
 CHANGES
 =======
 
+1.1.3
+-----
+
+ - Correct Read The Docs integration
+
 1.1.2
 -----
 
