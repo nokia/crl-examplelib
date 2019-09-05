@@ -3,6 +3,15 @@
 CHANGES
 =======
 
+1.1.4
+-----
+
+- Added links to contributing in README
+
+- Added CONTRIBUTING.rst file
+
+- Pinned dependencies for python 2
+
 1.1.3
 -----
 
