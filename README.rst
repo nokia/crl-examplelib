@@ -26,3 +26,8 @@ Development practices
 
 The development and the testing follows the Common Robot Libraries development
 practices defined in https://github.com/nokia/crl-devutils.
+
+License
+-------
+
+This project is licensed under the BSD-3-Clause license - see the `LICENSE <https://github.com/nokia/crl-examplelib/blob/master/LICENSE>`_.
